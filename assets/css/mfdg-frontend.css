@@ -1,0 +1,323 @@
+/* MF Downloadable Gallery — frontend
+ * Scoped under .mfdg. Inherits theme fonts; colors are overridable via CSS vars.
+ */
+.mfdg {
+	--mfdg-accent: #1f6feb;
+	--mfdg-accent-hover: #1a5fd0;
+	--mfdg-text: inherit;
+	--mfdg-muted: #6b7280;
+	--mfdg-border: #e5e7eb;
+	--mfdg-card-bg: #ffffff;
+	--mfdg-radius: 10px;
+	--mfdg-gap: 24px;
+	--mfdg-cols: 3;
+	color: var(--mfdg-text);
+	box-sizing: border-box;
+}
+.mfdg *,
+.mfdg *::before,
+.mfdg *::after {
+	box-sizing: border-box;
+}
+
+/* Filter bar */
+.mfdg-filter {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 8px;
+	margin: 0 0 var(--mfdg-gap);
+}
+.mfdg-filter__btn {
+	display: inline-block;
+	padding: 7px 14px;
+	border: 1px solid var(--mfdg-border);
+	border-radius: 999px;
+	background: transparent;
+	color: var(--mfdg-muted);
+	text-decoration: none;
+	font-size: 0.9em;
+	line-height: 1.2;
+	cursor: pointer;
+	transition: background-color 0.15s ease, color 0.15s ease, border-color 0.15s ease;
+}
+.mfdg-filter__btn:hover,
+.mfdg-filter__btn:focus-visible {
+	color: var(--mfdg-accent);
+	border-color: var(--mfdg-accent);
+}
+.mfdg-filter__btn.is-active {
+	background: var(--mfdg-accent);
+	border-color: var(--mfdg-accent);
+	color: #fff;
+}
+
+/* Grid */
+.mfdg-grid {
+	display: grid;
+	grid-template-columns: repeat(var(--mfdg-cols), minmax(0, 1fr));
+	gap: var(--mfdg-gap);
+	transition: opacity 0.2s ease;
+}
+.mfdg-grid.is-loading {
+	opacity: 0.45;
+	pointer-events: none;
+}
+
+/* Card */
+.mfdg-card {
+	display: flex;
+	flex-direction: column;
+	background: var(--mfdg-card-bg);
+	border: 1px solid var(--mfdg-border);
+	border-radius: var(--mfdg-radius);
+	overflow: hidden;
+	transition: transform 0.18s ease, box-shadow 0.18s ease;
+}
+.mfdg-card:hover {
+	transform: translateY(-3px);
+	box-shadow: 0 10px 28px rgba(0, 0, 0, 0.08);
+}
+.mfdg-card__cover {
+	position: relative;
+	width: 100%;
+	aspect-ratio: 3 / 4;
+	background: #f3f4f6;
+	overflow: hidden;
+}
+/* Fallback for browsers without aspect-ratio */
+@supports not (aspect-ratio: 3 / 4) {
+	.mfdg-card__cover {
+		height: 0;
+		padding-top: 133.333%;
+	}
+}
+.mfdg-card__img,
+.mfdg-card__cover img {
+	position: absolute;
+	inset: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	display: block;
+}
+.mfdg-card__placeholder {
+	position: absolute;
+	inset: 0;
+	background:
+		linear-gradient(135deg, #eef2f7 25%, transparent 25%) -10px 0,
+		linear-gradient(225deg, #eef2f7 25%, transparent 25%) -10px 0,
+		#f3f4f6;
+	background-size: 20px 20px;
+}
+.mfdg-card__body {
+	display: flex;
+	flex-direction: column;
+	gap: 8px;
+	padding: 16px;
+	flex: 1 1 auto;
+}
+.mfdg-card__title {
+	margin: 0;
+	font-size: 1.02em;
+	line-height: 1.3;
+}
+.mfdg-card__excerpt {
+	margin: 0;
+	color: var(--mfdg-muted);
+	font-size: 0.9em;
+	line-height: 1.45;
+}
+.mfdg-card__body .mfdg-btn {
+	margin-top: auto;
+}
+
+/* Buttons */
+.mfdg-btn {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	gap: 8px;
+	padding: 10px 16px;
+	border: none;
+	border-radius: 8px;
+	background: var(--mfdg-accent);
+	color: #fff;
+	font: inherit;
+	font-size: 0.95em;
+	font-weight: 600;
+	text-decoration: none;
+	cursor: pointer;
+	transition: background-color 0.15s ease;
+	width: 100%;
+	text-align: center;
+}
+.mfdg-btn:hover,
+.mfdg-btn:focus-visible {
+	background: var(--mfdg-accent-hover);
+	color: #fff;
+}
+.mfdg-btn:disabled {
+	opacity: 0.6;
+	cursor: default;
+}
+.mfdg-btn--gated::before {
+	content: "\2709"; /* envelope */
+	font-size: 1em;
+}
+.mfdg-btn--direct::before {
+	content: "\2193"; /* down arrow */
+	font-weight: 700;
+}
+
+/* Grouped */
+.mfdg-group {
+	margin-bottom: 40px;
+}
+.mfdg-group__title {
+	margin: 0 0 6px;
+	font-size: 1.3em;
+}
+.mfdg-group__desc {
+	margin: 0 0 18px;
+	color: var(--mfdg-muted);
+}
+
+.mfdg-empty {
+	color: var(--mfdg-muted);
+	padding: 20px 0;
+}
+
+/* Modal */
+.mfdg-modal {
+	position: fixed;
+	inset: 0;
+	z-index: 100000;
+	display: none;
+	align-items: center;
+	justify-content: center;
+	padding: 20px;
+}
+.mfdg-modal.is-open {
+	display: flex;
+}
+.mfdg-modal__overlay {
+	position: absolute;
+	inset: 0;
+	background: rgba(15, 23, 42, 0.55);
+	backdrop-filter: blur(2px);
+}
+.mfdg-modal__box {
+	position: relative;
+	z-index: 1;
+	width: 100%;
+	max-width: 420px;
+	background: #fff;
+	color: #111827;
+	border-radius: 14px;
+	padding: 28px 26px 26px;
+	box-shadow: 0 24px 60px rgba(0, 0, 0, 0.28);
+	animation: mfdg-pop 0.18s ease;
+}
+@keyframes mfdg-pop {
+	from { transform: translateY(10px) scale(0.98); opacity: 0; }
+	to { transform: none; opacity: 1; }
+}
+.mfdg-modal__close {
+	position: absolute;
+	top: 10px;
+	right: 12px;
+	width: 34px;
+	height: 34px;
+	border: none;
+	background: transparent;
+	font-size: 26px;
+	line-height: 1;
+	color: #9ca3af;
+	cursor: pointer;
+	border-radius: 6px;
+}
+.mfdg-modal__close:hover {
+	color: #111827;
+	background: #f3f4f6;
+}
+.mfdg-modal__title {
+	margin: 0 30px 16px 0;
+	font-size: 1.2em;
+	line-height: 1.3;
+	color: #111827;
+}
+.mfdg-modal__label {
+	display: block;
+	font-size: 0.85em;
+	font-weight: 600;
+	margin: 12px 0 5px;
+	color: #374151;
+}
+.mfdg-modal__input {
+	width: 100%;
+	padding: 11px 12px;
+	border: 1px solid #d1d5db;
+	border-radius: 8px;
+	font: inherit;
+	font-size: 1em;
+	color: #111827;
+	background: #fff;
+}
+.mfdg-modal__input:focus {
+	outline: none;
+	border-color: var(--mfdg-accent);
+	box-shadow: 0 0 0 3px rgba(31, 111, 235, 0.15);
+}
+.mfdg-modal__consent {
+	display: flex;
+	gap: 9px;
+	align-items: flex-start;
+	margin: 14px 0 4px;
+	font-size: 0.82em;
+	color: #4b5563;
+	line-height: 1.45;
+}
+.mfdg-modal__consent input {
+	margin-top: 3px;
+	flex: 0 0 auto;
+}
+.mfdg-modal__consent a {
+	color: var(--mfdg-accent);
+}
+.mfdg-modal__error {
+	color: #dc2626;
+	font-size: 0.85em;
+	margin: 10px 0 0;
+	min-height: 1em;
+}
+.mfdg-modal__submit {
+	margin-top: 16px;
+}
+.mfdg-modal__success {
+	text-align: center;
+	padding: 12px 0;
+}
+.mfdg-modal__success-msg {
+	color: #059669;
+	font-weight: 600;
+	margin: 0;
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+	.mfdg-grid { --mfdg-cols: 2 !important; }
+}
+@media (max-width: 560px) {
+	.mfdg-grid { --mfdg-cols: 1 !important; --mfdg-gap: 18px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+	.mfdg-card,
+	.mfdg-grid,
+	.mfdg-filter__btn,
+	.mfdg-btn,
+	.mfdg-modal__box {
+		transition: none;
+		animation: none;
+	}
+}

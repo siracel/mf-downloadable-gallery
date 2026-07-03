@@ -1,0 +1,43 @@
+/* MF Downloadable Gallery — admin */
+.mfdg-field {
+	margin: 12px 0;
+}
+.mfdg-field__label {
+	display: block;
+	font-weight: 600;
+	margin-bottom: 4px;
+}
+.mfdg-file-picker {
+	margin-top: 8px;
+}
+.mfdg-file-picker .mfdg-remove-file {
+	margin-left: 8px;
+	color: #b32d2e;
+	text-decoration: none;
+}
+.mfdg-file-preview {
+	margin-top: 10px;
+	word-break: break-all;
+}
+.mfdg-file-preview a {
+	display: inline-block;
+	padding: 6px 10px;
+	background: #f0f6fc;
+	border: 1px solid #c3d9ec;
+	border-radius: 6px;
+	text-decoration: none;
+}
+.mfdg-admin-wrap .mfdg-stats {
+	font-size: 14px;
+}
+.mfdg-admin-wrap .search-box {
+	margin: 12px 0;
+}
+.mfdg-admin-wrap .mfdg-delete {
+	color: #b32d2e;
+	text-decoration: none;
+}
+.column-mfdg_cover img {
+	border-radius: 3px;
+	object-fit: cover;
+}

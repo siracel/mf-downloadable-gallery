@@ -1,0 +1,419 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the MF Downloadable Gallery package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: MF Downloadable Gallery 1.0.0\n"
+"Report-Msgid-Bugs-To: https://mfdsgn.com/\n"
+"POT-Creation-Date: 2026-07-01 21:36+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: includes/class-mfdg-admin.php:38 includes/class-mfdg-admin.php:39
+#: includes/class-mfdg-admin.php:122
+msgid "E-mail List"
+msgstr ""
+
+#: includes/class-mfdg-admin.php:47 includes/class-mfdg-admin.php:48
+msgid "Settings"
+msgstr ""
+
+#: includes/class-mfdg-admin.php:66
+msgid "Cover"
+msgstr ""
+
+#: includes/class-mfdg-admin.php:67
+msgid "E-mail required"
+msgstr ""
+
+#: includes/class-mfdg-admin.php:123
+msgid "Export CSV (all)"
+msgstr ""
+
+#: includes/class-mfdg-admin.php:124
+msgid "Export CSV (unique e-mails)"
+msgstr ""
+
+#: includes/class-mfdg-admin.php:131
+#, php-format
+msgid "Total records: %1$s · Unique e-mails: %2$s"
+msgstr ""
+
+#: includes/class-mfdg-admin.php:142
+msgid "Search e-mail or file"
+msgstr ""
+
+#: includes/class-mfdg-admin.php:143
+msgid "Search"
+msgstr ""
+
+#: includes/class-mfdg-admin.php:150
+msgid "E-mail"
+msgstr ""
+
+#: includes/class-mfdg-admin.php:151
+msgid "Name"
+msgstr ""
+
+#: includes/class-mfdg-admin.php:152
+msgid "File"
+msgstr ""
+
+#: includes/class-mfdg-admin.php:153
+msgid "Category"
+msgstr ""
+
+#: includes/class-mfdg-admin.php:154
+msgid "Consent"
+msgstr ""
+
+#: includes/class-mfdg-admin.php:155
+msgid "Date"
+msgstr ""
+
+#: includes/class-mfdg-admin.php:161
+msgid "No records yet."
+msgstr ""
+
+#: includes/class-mfdg-admin.php:177
+msgid "Delete this record?"
+msgstr ""
+
+#: includes/class-mfdg-admin.php:177
+msgid "Delete"
+msgstr ""
+
+#: includes/class-mfdg-admin.php:225
+msgid "Downloadable Gallery Settings"
+msgstr ""
+
+#: includes/class-mfdg-admin.php:228
+msgid "Settings saved."
+msgstr ""
+
+#: includes/class-mfdg-admin.php:237
+msgid "Require e-mail by default"
+msgstr ""
+
+#: includes/class-mfdg-admin.php:239
+msgid "New files require an e-mail unless unchecked per file."
+msgstr ""
+
+#: includes/class-mfdg-admin.php:243
+msgid "Collect visitor name"
+msgstr ""
+
+#: includes/class-mfdg-admin.php:244
+msgid "Also ask for a name in the download form."
+msgstr ""
+
+#: includes/class-mfdg-admin.php:247
+msgid "Remember visitor"
+msgstr ""
+
+#: includes/class-mfdg-admin.php:248
+msgid ""
+"After the first submission, do not ask the same visitor again during their "
+"session."
+msgstr ""
+
+#: includes/class-mfdg-admin.php:251
+msgid "Consent checkbox"
+msgstr ""
+
+#: includes/class-mfdg-admin.php:253
+msgid "Show a required consent checkbox (recommended for KVKK/GDPR)."
+msgstr ""
+
+#: includes/class-mfdg-admin.php:255
+msgid "Basic HTML links are allowed in the consent text."
+msgstr ""
+
+#: includes/class-mfdg-admin.php:259
+msgid "Direct download button"
+msgstr ""
+
+#: includes/class-mfdg-admin.php:263
+msgid "Gated (e-mail) button"
+msgstr ""
+
+#: includes/class-mfdg-admin.php:267
+msgid "Success message"
+msgstr ""
+
+#: includes/class-mfdg-admin.php:271
+msgid "Default columns"
+msgstr ""
+
+#: includes/class-mfdg-admin.php:275
+msgid "Admin notification"
+msgstr ""
+
+#: includes/class-mfdg-admin.php:277
+msgid "E-mail me when a new lead is captured."
+msgstr ""
+
+#: includes/class-mfdg-admin.php:278
+msgid "Notification address"
+msgstr ""
+
+#: includes/class-mfdg-admin.php:283
+msgid "Save settings"
+msgstr ""
+
+#: includes/class-mfdg-admin.php:287
+msgid "Shortcodes"
+msgstr ""
+
+#: includes/class-mfdg-admin.php:288
+msgid "Use these shortcodes on any page or post:"
+msgstr ""
+
+#: includes/class-mfdg-admin.php:291
+msgid "All files as a grid, newest first, with a category filter bar."
+msgstr ""
+
+#: includes/class-mfdg-admin.php:292
+msgid "Files grouped under category headings."
+msgstr ""
+
+#: includes/class-mfdg-admin.php:293
+msgid "Only files from a specific category (slug)."
+msgstr ""
+
+#: includes/class-mfdg-admin.php:294
+msgid "Custom columns, no filter bar, oldest first."
+msgstr ""
+
+#: includes/class-mfdg-admin.php:306 includes/class-mfdg-admin.php:321
+#: includes/class-mfdg-admin.php:336
+msgid "Not allowed."
+msgstr ""
+
+#: includes/class-mfdg-ajax.php:37
+msgid "Security check failed. Please refresh the page."
+msgstr ""
+
+#: includes/class-mfdg-ajax.php:53 includes/class-mfdg-frontend.php:53
+msgid "Please enter a valid e-mail address."
+msgstr ""
+
+#: includes/class-mfdg-ajax.php:58
+msgid "File not found."
+msgstr ""
+
+#: includes/class-mfdg-ajax.php:63 includes/class-mfdg-frontend.php:54
+msgid "Please accept the consent to continue."
+msgstr ""
+
+#: includes/class-mfdg-ajax.php:69
+msgid "The file is not available."
+msgstr ""
+
+#: includes/class-mfdg-ajax.php:164
+#, php-format
+msgid "[%s] New download lead"
+msgstr ""
+
+#: includes/class-mfdg-ajax.php:169
+#, php-format
+msgid ""
+"A new e-mail was captured.\n"
+"\n"
+"E-mail: %1$s\n"
+"File: %2$s"
+msgstr ""
+
+#: includes/class-mfdg-cpt.php:33
+msgid "Downloadable Files"
+msgstr ""
+
+#: includes/class-mfdg-cpt.php:34 includes/class-mfdg-metabox.php:34
+msgid "Downloadable File"
+msgstr ""
+
+#: includes/class-mfdg-cpt.php:35
+msgid "Downloads"
+msgstr ""
+
+#: includes/class-mfdg-cpt.php:36
+msgid "Add New"
+msgstr ""
+
+#: includes/class-mfdg-cpt.php:37
+msgid "Add New File"
+msgstr ""
+
+#: includes/class-mfdg-cpt.php:38
+msgid "Edit File"
+msgstr ""
+
+#: includes/class-mfdg-cpt.php:39
+msgid "New File"
+msgstr ""
+
+#: includes/class-mfdg-cpt.php:40
+msgid "View File"
+msgstr ""
+
+#: includes/class-mfdg-cpt.php:41
+msgid "Search Files"
+msgstr ""
+
+#: includes/class-mfdg-cpt.php:42
+msgid "No files found"
+msgstr ""
+
+#: includes/class-mfdg-cpt.php:43
+msgid "No files found in Trash"
+msgstr ""
+
+#: includes/class-mfdg-cpt.php:44
+msgid "All Files"
+msgstr ""
+
+#: includes/class-mfdg-cpt.php:45
+msgid "Cover Image (3:4)"
+msgstr ""
+
+#: includes/class-mfdg-cpt.php:46
+msgid "Set cover image"
+msgstr ""
+
+#: includes/class-mfdg-cpt.php:73
+msgid "File Categories"
+msgstr ""
+
+#: includes/class-mfdg-cpt.php:74
+msgid "File Category"
+msgstr ""
+
+#: includes/class-mfdg-cpt.php:75
+msgid "Categories"
+msgstr ""
+
+#: includes/class-mfdg-cpt.php:76
+msgid "All Categories"
+msgstr ""
+
+#: includes/class-mfdg-cpt.php:77
+msgid "Edit Category"
+msgstr ""
+
+#: includes/class-mfdg-cpt.php:78
+msgid "Add New Category"
+msgstr ""
+
+#: includes/class-mfdg-cpt.php:79
+msgid "Search Categories"
+msgstr ""
+
+#: includes/class-mfdg-frontend.php:55
+msgid "Something went wrong. Please try again."
+msgstr ""
+
+#: includes/class-mfdg-frontend.php:56
+msgid "Preparing…"
+msgstr ""
+
+#: includes/class-mfdg-frontend.php:57 includes/class-mfdg-settings.php:29
+msgid "Download"
+msgstr ""
+
+#: includes/class-mfdg-frontend.php:58
+msgid "Close"
+msgstr ""
+
+#: includes/class-mfdg-frontend.php:59
+msgid "E-mail address"
+msgstr ""
+
+#: includes/class-mfdg-frontend.php:60
+msgid "Your name"
+msgstr ""
+
+#: includes/class-mfdg-frontend.php:61
+msgid "you@example.com"
+msgstr ""
+
+#: includes/class-mfdg-frontend.php:148
+msgid "All"
+msgstr ""
+
+#: includes/class-mfdg-frontend.php:222
+msgid "No files available yet."
+msgstr ""
+
+#: includes/class-mfdg-frontend.php:253
+msgid "No categories available yet."
+msgstr ""
+
+#: includes/class-mfdg-metabox.php:63
+msgid "Choose file"
+msgstr ""
+
+#: includes/class-mfdg-metabox.php:64
+msgid "Use this file"
+msgstr ""
+
+#: includes/class-mfdg-metabox.php:65
+msgid "Remove file"
+msgstr ""
+
+#: includes/class-mfdg-metabox.php:91
+msgid "File (PDF or any document)"
+msgstr ""
+
+#: includes/class-mfdg-metabox.php:92
+msgid "The file will be stored in the Media Library."
+msgstr ""
+
+#: includes/class-mfdg-metabox.php:96
+msgid "Select / Upload file"
+msgstr ""
+
+#: includes/class-mfdg-metabox.php:97
+msgid "Remove"
+msgstr ""
+
+#: includes/class-mfdg-metabox.php:111
+msgid "Require e-mail before download"
+msgstr ""
+
+#: includes/class-mfdg-metabox.php:114
+msgid ""
+"When checked, visitors enter their e-mail to download this file. When "
+"unchecked, the file downloads directly."
+msgstr ""
+
+#: includes/class-mfdg-metabox.php:120
+msgid "Cover image:"
+msgstr ""
+
+#: includes/class-mfdg-metabox.php:121
+msgid ""
+"Set the cover using the “Featured image” box on the right (3:4 ratio "
+"recommended, e.g. 600×800)."
+msgstr ""
+
+#: includes/class-mfdg-settings.php:28
+msgid ""
+"I agree that my e-mail address may be stored so this file can be sent to me "
+"and to receive information."
+msgstr ""
+
+#: includes/class-mfdg-settings.php:30
+msgid "Get the file"
+msgstr ""
+
+#: includes/class-mfdg-settings.php:31
+msgid "Thank you! Your download is starting."
+msgstr ""

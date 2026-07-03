@@ -1,0 +1,418 @@
+# MF Downloadable Gallery - Turkish translation
+# Copyright (C) 2026 mfdsgn
+# This file is distributed under the same license as the MF Downloadable Gallery package.
+# mfdsgn <https://mfdsgn.com/>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: MF Downloadable Gallery 1.0.0\n"
+"Report-Msgid-Bugs-To: https://mfdsgn.com/\n"
+"POT-Creation-Date: 2026-07-01 21:36+0000\n"
+"PO-Revision-Date: 2026-07-01 00:00+0300\n"
+"Last-Translator: mfdsgn\n"
+"Language-Team: Turkish\n"
+"Language: tr_TR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: includes/class-mfdg-admin.php:38 includes/class-mfdg-admin.php:39
+#: includes/class-mfdg-admin.php:122
+msgid "E-mail List"
+msgstr "E-posta Listesi"
+
+#: includes/class-mfdg-admin.php:47 includes/class-mfdg-admin.php:48
+msgid "Settings"
+msgstr "Ayarlar"
+
+#: includes/class-mfdg-admin.php:66
+msgid "Cover"
+msgstr "Kapak"
+
+#: includes/class-mfdg-admin.php:67
+msgid "E-mail required"
+msgstr "E-posta gerekli"
+
+#: includes/class-mfdg-admin.php:123
+msgid "Export CSV (all)"
+msgstr "CSV Dışa Aktar (tümü)"
+
+#: includes/class-mfdg-admin.php:124
+msgid "Export CSV (unique e-mails)"
+msgstr "CSV Dışa Aktar (benzersiz e-postalar)"
+
+#: includes/class-mfdg-admin.php:131
+#, php-format
+msgid "Total records: %1$s · Unique e-mails: %2$s"
+msgstr "Toplam kayıt: %1$s · Benzersiz e-posta: %2$s"
+
+#: includes/class-mfdg-admin.php:142
+msgid "Search e-mail or file"
+msgstr "E-posta veya dosya ara"
+
+#: includes/class-mfdg-admin.php:143
+msgid "Search"
+msgstr "Ara"
+
+#: includes/class-mfdg-admin.php:150
+msgid "E-mail"
+msgstr "E-posta"
+
+#: includes/class-mfdg-admin.php:151
+msgid "Name"
+msgstr "Ad"
+
+#: includes/class-mfdg-admin.php:152
+msgid "File"
+msgstr "Dosya"
+
+#: includes/class-mfdg-admin.php:153
+msgid "Category"
+msgstr "Kategori"
+
+#: includes/class-mfdg-admin.php:154
+msgid "Consent"
+msgstr "Onay"
+
+#: includes/class-mfdg-admin.php:155
+msgid "Date"
+msgstr "Tarih"
+
+#: includes/class-mfdg-admin.php:161
+msgid "No records yet."
+msgstr "Henüz kayıt yok."
+
+#: includes/class-mfdg-admin.php:177
+msgid "Delete this record?"
+msgstr "Bu kayıt silinsin mi?"
+
+#: includes/class-mfdg-admin.php:177
+msgid "Delete"
+msgstr "Sil"
+
+#: includes/class-mfdg-admin.php:225
+msgid "Downloadable Gallery Settings"
+msgstr "İndirilebilir Galeri Ayarları"
+
+#: includes/class-mfdg-admin.php:228
+msgid "Settings saved."
+msgstr "Ayarlar kaydedildi."
+
+#: includes/class-mfdg-admin.php:237
+msgid "Require e-mail by default"
+msgstr "Varsayılan olarak e-posta iste"
+
+#: includes/class-mfdg-admin.php:239
+msgid "New files require an e-mail unless unchecked per file."
+msgstr "Dosya bazında kaldırılmadıkça yeni dosyalar için e-posta gerekir."
+
+#: includes/class-mfdg-admin.php:243
+msgid "Collect visitor name"
+msgstr "Ziyaretçi adını topla"
+
+#: includes/class-mfdg-admin.php:244
+msgid "Also ask for a name in the download form."
+msgstr "İndirme formunda ayrıca isim de sor."
+
+#: includes/class-mfdg-admin.php:247
+msgid "Remember visitor"
+msgstr "Ziyaretçiyi hatırla"
+
+#: includes/class-mfdg-admin.php:248
+msgid ""
+"After the first submission, do not ask the same visitor again during their "
+"session."
+msgstr "İlk gönderimden sonra, aynı ziyaretçiye oturum boyunca tekrar sorma."
+
+#: includes/class-mfdg-admin.php:251
+msgid "Consent checkbox"
+msgstr "Onay kutusu"
+
+#: includes/class-mfdg-admin.php:253
+msgid "Show a required consent checkbox (recommended for KVKK/GDPR)."
+msgstr "Zorunlu bir onay kutusu göster (KVKK/GDPR için önerilir)."
+
+#: includes/class-mfdg-admin.php:255
+msgid "Basic HTML links are allowed in the consent text."
+msgstr "Onay metninde temel HTML bağlantılarına izin verilir."
+
+#: includes/class-mfdg-admin.php:259
+msgid "Direct download button"
+msgstr "Doğrudan indirme butonu"
+
+#: includes/class-mfdg-admin.php:263
+msgid "Gated (e-mail) button"
+msgstr "E-posta gerektiren buton"
+
+#: includes/class-mfdg-admin.php:267
+msgid "Success message"
+msgstr "Başarı mesajı"
+
+#: includes/class-mfdg-admin.php:271
+msgid "Default columns"
+msgstr "Varsayılan sütun sayısı"
+
+#: includes/class-mfdg-admin.php:275
+msgid "Admin notification"
+msgstr "Yönetici bildirimi"
+
+#: includes/class-mfdg-admin.php:277
+msgid "E-mail me when a new lead is captured."
+msgstr "Yeni bir kayıt oluştuğunda bana e-posta gönder."
+
+#: includes/class-mfdg-admin.php:278
+msgid "Notification address"
+msgstr "Bildirim adresi"
+
+#: includes/class-mfdg-admin.php:283
+msgid "Save settings"
+msgstr "Ayarları kaydet"
+
+#: includes/class-mfdg-admin.php:287
+msgid "Shortcodes"
+msgstr "Kısa kodlar"
+
+#: includes/class-mfdg-admin.php:288
+msgid "Use these shortcodes on any page or post:"
+msgstr "Bu kısa kodları herhangi bir sayfa veya yazıda kullanın:"
+
+#: includes/class-mfdg-admin.php:291
+msgid "All files as a grid, newest first, with a category filter bar."
+msgstr "Tüm dosyalar ızgara olarak, en yeni önce, kategori filtre çubuğuyla."
+
+#: includes/class-mfdg-admin.php:292
+msgid "Files grouped under category headings."
+msgstr "Kategori başlıkları altında gruplanmış dosyalar."
+
+#: includes/class-mfdg-admin.php:293
+msgid "Only files from a specific category (slug)."
+msgstr "Yalnızca belirli bir kategoriye ait dosyalar (slug)."
+
+#: includes/class-mfdg-admin.php:294
+msgid "Custom columns, no filter bar, oldest first."
+msgstr "Özel sütun sayısı, filtre çubuğu yok, en eski önce."
+
+#: includes/class-mfdg-admin.php:306 includes/class-mfdg-admin.php:321
+#: includes/class-mfdg-admin.php:336
+msgid "Not allowed."
+msgstr "İzin verilmiyor."
+
+#: includes/class-mfdg-ajax.php:37
+msgid "Security check failed. Please refresh the page."
+msgstr "Güvenlik doğrulaması başarısız. Lütfen sayfayı yenileyin."
+
+#: includes/class-mfdg-ajax.php:53 includes/class-mfdg-frontend.php:53
+msgid "Please enter a valid e-mail address."
+msgstr "Lütfen geçerli bir e-posta adresi girin."
+
+#: includes/class-mfdg-ajax.php:58
+msgid "File not found."
+msgstr "Dosya bulunamadı."
+
+#: includes/class-mfdg-ajax.php:63 includes/class-mfdg-frontend.php:54
+msgid "Please accept the consent to continue."
+msgstr "Devam etmek için lütfen onayı işaretleyin."
+
+#: includes/class-mfdg-ajax.php:69
+msgid "The file is not available."
+msgstr "Dosya mevcut değil."
+
+#: includes/class-mfdg-ajax.php:164
+#, php-format
+msgid "[%s] New download lead"
+msgstr "[%s] Yeni indirme kaydı"
+
+#: includes/class-mfdg-ajax.php:169
+#, php-format
+msgid ""
+"A new e-mail was captured.\n"
+"\n"
+"E-mail: %1$s\n"
+"File: %2$s"
+msgstr "Yeni bir e-posta kaydedildi.\n\nE-posta: %1$s\nDosya: %2$s"
+
+#: includes/class-mfdg-cpt.php:33
+msgid "Downloadable Files"
+msgstr "İndirilebilir Dosyalar"
+
+#: includes/class-mfdg-cpt.php:34 includes/class-mfdg-metabox.php:34
+msgid "Downloadable File"
+msgstr "İndirilebilir Dosya"
+
+#: includes/class-mfdg-cpt.php:35
+msgid "Downloads"
+msgstr "İndirmeler"
+
+#: includes/class-mfdg-cpt.php:36
+msgid "Add New"
+msgstr "Yeni Ekle"
+
+#: includes/class-mfdg-cpt.php:37
+msgid "Add New File"
+msgstr "Yeni Dosya Ekle"
+
+#: includes/class-mfdg-cpt.php:38
+msgid "Edit File"
+msgstr "Dosyayı Düzenle"
+
+#: includes/class-mfdg-cpt.php:39
+msgid "New File"
+msgstr "Yeni Dosya"
+
+#: includes/class-mfdg-cpt.php:40
+msgid "View File"
+msgstr "Dosyayı Görüntüle"
+
+#: includes/class-mfdg-cpt.php:41
+msgid "Search Files"
+msgstr "Dosya Ara"
+
+#: includes/class-mfdg-cpt.php:42
+msgid "No files found"
+msgstr "Dosya bulunamadı"
+
+#: includes/class-mfdg-cpt.php:43
+msgid "No files found in Trash"
+msgstr "Çöp kutusunda dosya bulunamadı"
+
+#: includes/class-mfdg-cpt.php:44
+msgid "All Files"
+msgstr "Tüm Dosyalar"
+
+#: includes/class-mfdg-cpt.php:45
+msgid "Cover Image (3:4)"
+msgstr "Kapak Görseli (3:4)"
+
+#: includes/class-mfdg-cpt.php:46
+msgid "Set cover image"
+msgstr "Kapak görseli ayarla"
+
+#: includes/class-mfdg-cpt.php:73
+msgid "File Categories"
+msgstr "Dosya Kategorileri"
+
+#: includes/class-mfdg-cpt.php:74
+msgid "File Category"
+msgstr "Dosya Kategorisi"
+
+#: includes/class-mfdg-cpt.php:75
+msgid "Categories"
+msgstr "Kategoriler"
+
+#: includes/class-mfdg-cpt.php:76
+msgid "All Categories"
+msgstr "Tüm Kategoriler"
+
+#: includes/class-mfdg-cpt.php:77
+msgid "Edit Category"
+msgstr "Kategoriyi Düzenle"
+
+#: includes/class-mfdg-cpt.php:78
+msgid "Add New Category"
+msgstr "Yeni Kategori Ekle"
+
+#: includes/class-mfdg-cpt.php:79
+msgid "Search Categories"
+msgstr "Kategori Ara"
+
+#: includes/class-mfdg-frontend.php:55
+msgid "Something went wrong. Please try again."
+msgstr "Bir şeyler ters gitti. Lütfen tekrar deneyin."
+
+#: includes/class-mfdg-frontend.php:56
+msgid "Preparing…"
+msgstr "Hazırlanıyor…"
+
+#: includes/class-mfdg-frontend.php:57 includes/class-mfdg-settings.php:29
+msgid "Download"
+msgstr "İndir"
+
+#: includes/class-mfdg-frontend.php:58
+msgid "Close"
+msgstr "Kapat"
+
+#: includes/class-mfdg-frontend.php:59
+msgid "E-mail address"
+msgstr "E-posta adresi"
+
+#: includes/class-mfdg-frontend.php:60
+msgid "Your name"
+msgstr "Adınız"
+
+#: includes/class-mfdg-frontend.php:61
+msgid "you@example.com"
+msgstr "ornek@eposta.com"
+
+#: includes/class-mfdg-frontend.php:148
+msgid "All"
+msgstr "Tümü"
+
+#: includes/class-mfdg-frontend.php:222
+msgid "No files available yet."
+msgstr "Henüz dosya yok."
+
+#: includes/class-mfdg-frontend.php:253
+msgid "No categories available yet."
+msgstr "Henüz kategori yok."
+
+#: includes/class-mfdg-metabox.php:63
+msgid "Choose file"
+msgstr "Dosya seç"
+
+#: includes/class-mfdg-metabox.php:64
+msgid "Use this file"
+msgstr "Bu dosyayı kullan"
+
+#: includes/class-mfdg-metabox.php:65
+msgid "Remove file"
+msgstr "Dosyayı kaldır"
+
+#: includes/class-mfdg-metabox.php:91
+msgid "File (PDF or any document)"
+msgstr "Dosya (PDF veya herhangi bir belge)"
+
+#: includes/class-mfdg-metabox.php:92
+msgid "The file will be stored in the Media Library."
+msgstr "Dosya Ortam Kitaplığında saklanacaktır."
+
+#: includes/class-mfdg-metabox.php:96
+msgid "Select / Upload file"
+msgstr "Dosya seç / yükle"
+
+#: includes/class-mfdg-metabox.php:97
+msgid "Remove"
+msgstr "Kaldır"
+
+#: includes/class-mfdg-metabox.php:111
+msgid "Require e-mail before download"
+msgstr "İndirmeden önce e-posta iste"
+
+#: includes/class-mfdg-metabox.php:114
+msgid ""
+"When checked, visitors enter their e-mail to download this file. When "
+"unchecked, the file downloads directly."
+msgstr "İşaretlendiğinde ziyaretçiler bu dosyayı indirmek için e-postalarını girer. İşaretlenmediğinde dosya doğrudan indirilir."
+
+#: includes/class-mfdg-metabox.php:120
+msgid "Cover image:"
+msgstr "Kapak görseli:"
+
+#: includes/class-mfdg-metabox.php:121
+msgid ""
+"Set the cover using the “Featured image” box on the right (3:4 ratio "
+"recommended, e.g. 600×800)."
+msgstr "Kapağı sağdaki “Öne çıkan görsel” kutusundan ayarlayın (3:4 oranı önerilir, örn. 600×800)."
+
+#: includes/class-mfdg-settings.php:28
+msgid ""
+"I agree that my e-mail address may be stored so this file can be sent to me "
+"and to receive information."
+msgstr "Bu dosyanın bana iletilebilmesi ve bilgilendirme yapılabilmesi için e-posta adresimin saklanmasını kabul ediyorum."
+
+#: includes/class-mfdg-settings.php:30
+msgid "Get the file"
+msgstr "Dosyayı al"
+
+#: includes/class-mfdg-settings.php:31
+msgid "Thank you! Your download is starting."
+msgstr "Teşekkürler! İndirmeniz başlıyor."
